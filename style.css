@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, sans-serif;
+}
+
+/* Heading styling starts */
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/background.png);
+}
+
+.heading {
+    margin: auto;
+    position: relative;
+    top: 15rem;
+    text-align: center;
+    width: 30%;
+    color: white;
+}
+
+h1 {
+   font-family: Sacramento, sans-serif;
+   font-size: 80px; 
+}
+
+.name {
+    color: #E31B6D;
+}
+/* Heading styling ends */
+
+
+/* Section 1 styling starts */
+.profile-section {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+}
+
+.img {
+    width: 15%;
+    margin-top: 2rem;
+}
+
+.profile {
+    color: #45474A;
+    padding: 1.5rem;
+}
+
+.profile-intro {
+    padding: 0.4rem;
+    width: 30%;
+    margin: auto;
+    line-height: 1.7;
+    color: #868686;
+}
+/* Section 1 styling ends */
+
+hr {
+    border: none;
+    border-bottom: 4px dotted #45474A;
+    width: 4%;
+    margin: 2rem auto;
+}
+
+/* Section 2 styling starts */
+.skill-section {
+    width: 100%;
+    height: 86vh;
+}
+
+/* Section 2 skill 1 styling starts */
+.skill1-title {
+    margin: 3rem auto;
+    width: 20%;
+    height: 7vh;
+    text-align: center;
+    font-size: 28px;
+    color: #45474A;
+    font-weight: 600;
+} 
+
+.skill1-inner {
+    width: 55%;
+    height: 25vh;
+    display: flex;
+    margin: auto;
+}
+
+.img-skill1 {
+    position: relative;
+    right: 1.5rem;
+}
+
+.skill1-inner2 {
+    padding: 1rem;
+    margin-left: 2rem;
+
+}
+
+.skill1-subtitle {
+    width: 65%;
+    color: #45474A;
+}
+
+.skill1-paragraph {
+    line-height: 1.7;
+    width: 80%;
+    margin-top: 2rem;
+    color:#868686;
+}
+/* Section 2 skill 1 styling ends */
+
+/* Section 2 skill 2 styling starts */
+.skill2 {
+    width: 55%;
+    height: 25vh;
+    display: flex;
+    margin: 5rem auto;
+
+}
+
+.img-skill2 {
+    width: 23%; 
+    position: relative;
+    right: 10rem; 
+}
+
+.skill2-subtitle {
+    color: #45474A;
+}
+
+.skill2-paragraph {
+    line-height: 1.7;
+    color: #868686;
+    margin-top: 2rem;
+    width: 70%;
+}
+/* Section 2 skill 2 styling ends */
+/* Section 2 styling ends */ 
+
+/* Section 3 styling starts */
+.contact-me {
+    width: 100%;
+    height: 55vh;
+}
+
+.contact-container {
+    width: 65%;
+    height: 55vh;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 28px;
+    margin: 2.3rem auto;
+    width: 20%;
+    height: 7vh;
+    color: #45474A;
+}
+
+.contact-subtitle {
+    color: #45474A;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-paragraph {
+    color: #868686;
+    line-height: 1.7;
+    padding: 1rem;
+    width: 65%;
+    height: 10vh;
+    margin: 1.2rem auto;
+}
+
+/* styling of button */
+button {
+    width: 20%;
+    height: 7vh;
+    background-color: #E31B6D;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #45474A;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ad265e;
+}
+/* Section 3 styling ends */
+
+/* Footer styling starts */
+footer {
+    height: 25vh;
+    background-color: #868686;
+    position: relative;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #E31B6D;
+    margin-top: 1.6rem;
+}
+
+.link:hover {
+    color: #45474A;
+}
+
+.copyright {
+    position: absolute;
+    top: 6rem;
+    left: 38rem;
+    color: #E31B6D;
+    font-size: small;
+}
+/* Footer styling ends */
